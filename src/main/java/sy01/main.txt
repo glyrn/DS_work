@@ -1,0 +1,35 @@
+public static void main(String[] args) throws Exception{
+
+
+        //建立顺序表
+        SqList stuMessage = new SqList(20);
+        student
+        stuMessage.insert(0, );
+
+
+
+
+
+    }
+
+    //插入函数
+    public student inputStu() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("请输入学号：");
+        int stuNum = scanner.nextInt();
+
+        System.out.println("请输入姓名：");
+        String name = scanner.next();
+
+        System.out.println("请输入性别：");
+        String sex = scanner.next();
+
+        System.out.println("请输入电话：");
+        int telNum = scanner.nextInt();
+
+        System.out.println("请输入地址：");
+        String address = scanner.next();
+
+        return new student(stuNum, name, sex, telNum, address);
+    }
